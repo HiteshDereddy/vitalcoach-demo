@@ -1,0 +1,72 @@
+{
+  "client_summary": {
+    "weekly_overview": "Client reports inconsistent sleep (5\u20138 hours), fluctuating energy levels, ongoing bloating and acidity, and gradual weight stability despite reduced food intake. Progress is seen in improved energy, better sleep, and consistent movement, though barriers like work stress and meal planning persist.",
+    "engagement_level": "Medium"
+  },
+  "metrics": {
+    "nutrition_adherence": {
+      "status": "Client-reported meals are generally simple, with some skipping of key components (e.g., no salad, missing ACV, low protein). Breakfast includes chapatis, seeds, and roasted chana; lunch includes vegetables, curd, and protein. Client acknowledges need to improve meal planning and consistency.",
+      "details": "Client reports skipping salad, missing ACV, and low protein intake on some days. Had roasted chana at school. Ordered sprouts. Breakfast includes 1.5 vegetable chapatis with seeds and ajwain. Lunch had vegetables, curd, and protein. Protein intake is low on some days.",
+      "evidence": "Client: 'I didn\u2019t have sprouts today. Have ordered them.' 'I had roasted chana and kala chana.' 'Protein seems low in breakfast on some days.'",
+      "source_type": "client_reported"
+    },
+    "exercise_steps": {
+      "status": "Client engages in walking, stretching, and breathing. Steps range from 4,500 to 8,000. Exercise includes walking, stretching, and breathing, with 20\u201330 minutes of activity on multiple days.",
+      "details": "Day 1: 15 minutes walking. Day 2: walking and water. Day 4: 20 minutes walking, stretching, breathing. Day 5: 20 minutes stretching and running. Day 8: 30 minutes exercise, 8,000 steps.",
+      "evidence": "Client: 'Did around 20 minutes walking, stretching and breathing today.' 'Did 20 minutes stretching and running.' 'Steps around 8,000.' 'Did 30 minutes exercise.'",
+      "source_type": "client_reported"
+    },
+    "sleep": {
+      "status": "Sleep duration varies from 5 to 8 hours. Quality is inconsistent, with reports of poor sleep due to work stress and fatigue.",
+      "details": "Day 1: 5 hours. Day 7: 5.5 hours. Day 8: 8 hours. Client reports sleeping on table during meeting and feeling fatigued.",
+      "evidence": "Client: 'Slept only around 5 hours last night.' 'Sleep around 5.5 hours.' 'Slept better last night, around 8 hours.' 'During a meeting today I was so tired that my head went down on the table and I actually slept for a few seconds.'",
+      "source_type": "client_reported"
+    },
+    "water_intake": {
+      "status": "Water intake varies from 3.5 to 4 litres per day. Client reports drinking tea and water consistently.",
+      "details": "Day 1: tea and soaked nuts. Day 2: tea, apple. Day 3: coconut water, tea, prunes. Day 4: tea. Day 8: 3.5 litres.",
+      "evidence": "Client: 'Had tea and some soaked nuts.' 'Tea 1 cup and 1 apple.' 'Coconut water, tea, prunes.' 'Water around 3.5 litres.'",
+      "source_type": "client_reported"
+    }
+  },
+  "health_status": {
+    "symptoms_stress": {
+      "status": "Client reports ongoing acidity, bloating, and fatigue. Mental stress from work politics and office environment is significant.",
+      "details": "Acidity since morning, bloating on and off, feeling low, fatigue during meetings, head dropping on table, feeling like sleeping for days.",
+      "evidence": "Client: 'Feeling some acidity since morning.' 'Still having acidity and bloating.' 'Feeling very low.' 'I feel I can sleep for days.' 'There is a lot of office pressure and politics going on.'",
+      "source_type": "client_reported"
+    }
+  },
+  "coaching_insights": {
+    "key_barriers": [
+      {
+        "status": "Client lacks time for meal planning and preparation due to school and work schedules.",
+        "details": "Client states: 'I am not getting enough time to plan meals. Next week should be easier.' 'I had to go to school after a few days. Very hectic morning.' 'There is a lot of office pressure and politics going on.'",
+        "evidence": "Client: 'I am not getting enough time to plan meals. Next week should be easier.' 'Very hectic morning.' 'There is a lot of office pressure and politics going on.'",
+        "source_type": "client_reported"
+      }
+    ],
+    "pending_actions": [
+      {
+        "status": "Client promised to stock vegetables properly and set reminders for meals.",
+        "details": "Client: 'I still need to stock vegetables properly. Will do it tomorrow.' 'Set a reminder around meal timings.'",
+        "evidence": "Client: 'I still need to stock vegetables properly. Will do it tomorrow.' 'Set a reminder around meal timings.'",
+        "source_type": "client_reported"
+      }
+    ],
+    "risk_attention_flags": [
+      {
+        "status": "High risk of chronic fatigue and digestive issues due to poor sleep, stress, and inconsistent meals.",
+        "details": "Client reports sleeping only 5 hours, experiencing acidity and bloating, and feeling fatigued during work. Work stress leads to actual sleep during meetings.",
+        "evidence": "Client: 'Slept only around 5 hours last night.' 'Feeling very low.' 'I feel I can sleep for days.' 'There is a lot of office pressure and politics going on.'",
+        "source_type": "client_reported"
+      }
+    ],
+    "recommended_next_action": {
+      "status": "Coach should prioritize sleep hygiene, stress management, and practical meal planning that fits the client\u2019s schedule.",
+      "details": "Coach should recommend a simple, consistent meal plan with reminders, focus on protein intake, and suggest stress-reduction techniques. Also, validate client\u2019s need for flexibility in routine due to school and work demands.",
+      "evidence": "Coach: 'That could be one of the main barriers right now. Let\u2019s keep the plan practical.' 'We also need to look at your sleep and stress more carefully.' 'Set a reminder around meal timings.'",
+      "source_type": "ai_inference"
+    }
+  }
+}

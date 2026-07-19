@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenAI Client Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-leaf"></i>
+                <span>VitalCoach AI</span>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active"><i class="fa-solid fa-chart-pie"></i> Intelligence</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-users"></i> Clients</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-message"></i> Messages</a>
+                <a href="#" class="nav-item"><i class="fa-solid fa-gear"></i> Settings</a>
+            </nav>
+
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-bar">
+                <div class="client-header">
+                    <div class="client-info">
+                        <h1>Client Analysis Report</h1>
+                        <p>Weekly Review: Day 1 to Day 8</p>
+                    </div>
+                </div>
+                <div class="actions">
+                    <button class="btn btn-secondary"><i class="fa-solid fa-download"></i> Export PDF</button>
+                    <button class="btn btn-primary" id="approve-all"><i class="fa-solid fa-check-double"></i> Approve All</button>
+                </div>
+            </header>
+
+            <div class="dashboard-grid">
+                
+                <!-- Left Column -->
+                <div class="col col-left">
+                    
+                    <!-- Summary Card -->
+                    <div class="card summary-card">
+                        <h2><i class="fa-solid fa-bolt"></i> Weekly Summary</h2>
+                        <div id="weekly-summary" class="summary-text">
+                            <!-- Injected by JS -->
+                        </div>
+                        <div class="engagement-badge" id="engagement-level">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Metrics Section -->
+                    <div class="card metrics-card">
+                        <h2><i class="fa-solid fa-clipboard-list"></i> Core Metrics</h2>
+                        <div class="metrics-list" id="metrics-container">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Health Status Section -->
+                    <div class="card health-card">
+                        <h2><i class="fa-solid fa-heart-pulse"></i> Health & Symptoms</h2>
+                        <div class="metrics-list" id="health-container">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right Column -->
+                <div class="col col-right">
+                    
+                    <!-- Coaching Insights Section -->
+                    <div class="card insights-card">
+                        <h2><i class="fa-solid fa-lightbulb"></i> Coaching Insights</h2>
+                        
+                        <div class="insight-group">
+                            <h3><i class="fa-solid fa-triangle-exclamation"></i> Risk / Attention Flags</h3>
+                            <ul class="insight-list" id="risk-flags">
+                                <!-- Injected by JS -->
+                            </ul>
+                        </div>
+
+                        <div class="insight-group">
+                            <h3><i class="fa-solid fa-person-falling"></i> Key Barriers</h3>
+                            <ul class="insight-list" id="key-barriers">
+                                <!-- Injected by JS -->
+                            </ul>
+                        </div>
+
+                        <div class="insight-group">
+                            <h3><i class="fa-regular fa-clock"></i> Pending Actions</h3>
+                            <ul class="insight-list" id="pending-actions">
+                                <!-- Injected by JS -->
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Recommendation Card -->
+                    <div class="card recommendation-card">
+                        <h2><i class="fa-solid fa-compass"></i> Recommended Next Action</h2>
+                        <div class="recommendation-content" id="next-action">
+                            <!-- Injected by JS -->
+                        </div>
+                        <div class="review-actions">
+                            <button class="btn-review approve"><i class="fa-solid fa-check"></i> Approve</button>
+                            <button class="btn-review edit"><i class="fa-solid fa-pen"></i> Edit</button>
+                            <button class="btn-review reject"><i class="fa-solid fa-xmark"></i> Reject</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
